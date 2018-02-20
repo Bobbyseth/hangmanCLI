@@ -1,17 +1,8 @@
-//`main.js` will contain the logic of your app. Running it in Terminal/Bash will start the game.
 var Word = require('./word.js');
 var prompt = require('prompt');
 
-console.log("Welcome to Chocolate Hangman!");
-console.log("Guess a letter of the name of a chocolate bar");
-console.log("Goodluck!");
-console.log("-----------------------------");
-prompt.start();
-
-
-
 game = {
- 	wordBank: ['hersheys', 'almondjoy', 'reeses', 'snickers', 'milkyway', 'kitkat', 'twix'],
+ 	wordBank: ['ford', 'chevrolet', 'dodge', 'honda', 'acura', 'toyota', 'nissan', 'bmw', 'mercedes-benz', 'lexus'],
  	wordsWon: 0,
  	guessesRemaining: 10,
  	currentWrd: null,
